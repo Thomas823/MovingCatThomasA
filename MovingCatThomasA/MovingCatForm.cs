@@ -16,5 +16,11 @@ namespace MovingCatThomasA
         {
             InitializeComponent();
         }
+
+        // Close the program when clicked on
+        private void mniExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
